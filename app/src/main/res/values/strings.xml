@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Iconist</string>
+
+    <string name="menuShuffle">Shuffle</string>
+    <string name="menuMirror">Mirror</string>
+    <string name="menuDetail">Detail</string>
+    <string name="menuColors">Colors</string>
+    <string name="menuResize">Resize</string>
+    
+    <string name="optionMirror">Mirror</string>
+    <string name="optionMirrorX">Horizontal</string>
+    <string name="optionMirrorY">Vertical</string>
+
+    <string name="optionColor">Colors</string>
+    <string name="option1Color">Mono</string>
+    <string name="option2Color">Two</string>
+    <string name="option3Color">Three</string>
+    <string name="option4Color">Four</string>
+    
+    <string name="optionDetail">Detail</string>
+    <string name="option1Detail">1x</string>
+    <string name="option2Detail">2x</string>
+    <string name="option3Detail">3x</string>
+    <string name="option4Detail">4x</string>
+    
+    <string name="optionSize">Size</string>
+    <string name="optionSizeX">Width</string>
+    <string name="optionSizeY">Height</string>
+    <string name="optionSizeSet">Set</string>
+        
+    <string name="imageDesc"></string>
+    
+    <string name="optionSizeTooSmall">Image dimension too small.</string>
+    <string name="optionSizeTooLarge">Image dimension too large.</string>
+    <string name="optionSizeInvalid">Image aspect ratio invalid.</string>
+    
+    <string name="imageSaveOK">Image has been added to the Gallery.</string>
+    
+</resources>

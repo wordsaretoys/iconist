@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:textSize="18sp"
+        android:text="@string/optionSize" />
+    
+    <TextView
+        android:labelFor="@+id/sizeX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:textSize="18sp"
+        android:text="@string/optionSizeX" />
+    
+    <EditText
+        android:id="@+id/sizeX"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:gravity="right"
+        android:inputType="number"
+        android:textSize="18sp"/>
+        
+    <TextView
+        android:labelFor="@+id/sizeY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:textSize="18sp"
+        android:text="@string/optionSizeY" />
+    
+    <EditText
+        android:id="@+id/sizeY"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:gravity="right"
+        android:inputType="number"
+        android:textSize="18sp"/>
+    
+    <Button
+        android:id="@+id/sizeSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/optionSizeSet"/>
+    
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/optionDetail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:textSize="18sp"
+        android:text="@string/optionDetail" />
+    
+	<RadioButton
+	    android:id="@+id/radio1Detail"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+	    android:text="@string/option1Detail" />
+
+	<RadioButton
+	    android:id="@+id/radio2Detail"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+	    android:text="@string/option2Detail" />
+	
+	<RadioButton
+	    android:id="@+id/radio3Detail"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+	    android:text="@string/option3Detail" />
+
+	<RadioButton
+	    android:id="@+id/radio4Detail"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+	    android:text="@string/option4Detail" />
+								    	    
+ </RadioGroup>
